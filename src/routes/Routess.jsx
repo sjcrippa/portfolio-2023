@@ -1,24 +1,24 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navbar } from '../components/navbar/Navbar';
+import { NavBar } from './components/navbar/NavBar';
 
 export const Routess = () => {
     return (
 
         <Router>
 
-            <Navbar />
+            <NavBar />
 
             <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='Home' element={<Home/>}/>
-                <Route path='About' element={<About/>}/>
-                <Route path='Contact' element={<Contact/>}/>
-                <Route path='Experience' element={<Experience/>}/>
-                <Route path='Works' element={<Works/>}/>
+                <Route path='/' element={<Home />} />
+                <Route path='Home' element={<Home />} />
+                <Route path='About' element={<About />} />
+                <Route path='Contact' element={<Contact />} />
+                <Route path='Experience' element={<Experience />} />
+                <Route path='Works' element={<Works />} />
             </Routes>
 
         </Router>
 
-        )
+    )
 }
