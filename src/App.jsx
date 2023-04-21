@@ -1,5 +1,4 @@
-import { NavBar } from "./components/navbar/NavBar"
-
+import { NavBar } from "../components/navbar/NavBar"
 export const App =() => {
 
   return (
@@ -10,5 +9,3 @@ export const App =() => {
     </div>
   )
 }
-
-export default App

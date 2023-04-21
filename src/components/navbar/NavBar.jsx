@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavItem } from './NavItem'
+/* import { Link } from 'react-router-dom' */
 
 
 export const NavBar = () => {
