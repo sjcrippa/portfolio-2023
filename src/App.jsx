@@ -1,11 +1,12 @@
-import { NavBar } from "../components/navbar/NavBar"
+import React from 'react'
+import { Hero } from './components/Hero'
+
 export const App =() => {
 
   return (
     <div className="text-center">
       My Portfolio
-      <NavBar />
-      
+      <Hero/>
     </div>
   )
 }

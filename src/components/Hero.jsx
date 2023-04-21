@@ -1,7 +1,12 @@
 import React from 'react'
+import { NavBar } from './navbar/Navbar'
 
-export const Hero = () => {
+const Hero = () => {
     return (
-        <div>Hero</div>
+        <div>
+            <NavBar/>
+        </div>
     )
 }
+
+export default Hero
