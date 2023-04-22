@@ -1,12 +1,22 @@
-import React from 'react'
-import { Hero } from './components/Hero'
+import React from 'react';
 
-export const App =() => {
+import { Header } from './components/Header';
+import { Experience } from './components/Experience';
+import { Works } from './components/Works';
+import { Footer } from './components/Footer';
+import { Home } from './components/Home';
 
-  return (
-    <div className="text-center">
-      My Portfolio
-      <Hero/>
-    </div>
-  )
+const App = () => {
+
+	return (
+		<div>
+			<Header/>
+			<Home/>
+			<Experience/>
+			<Works/>
+			<Footer/>
+		</div>
+	)
 }
+
+export default App;
