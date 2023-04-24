@@ -1,6 +1,5 @@
-import React from 'react'
-/* import { NavItem } from './NavItem'
- */
+import React from 'react';
+
 const Navbar = () => {
     return (
         <div>
@@ -10,8 +9,7 @@ const Navbar = () => {
                 <li>Dos</li>
                 <li>Tres</li>
             </div>
-{/*             <NavItem/>
- */}        </div>
+        </div>
     )
 };
 
