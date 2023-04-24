@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Experience = () => {
+const Experience = () => {
     return (
         <>
             <div className='experience'>
@@ -9,3 +9,4 @@ export const Experience = () => {
         </>
     )
 }
+export default Experience;

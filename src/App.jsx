@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Experience } from './components/Experience';
-import { Works } from './components/Works';
-import { Footer } from './components/Footer';
-import { Home } from './components/Home';
+import Experience  from './components/Experience';
+import Works  from './components/Works';
+import Footer  from './components/Footer';
+import Home  from './components/Home';
 
 const App = () => {
 
