@@ -12,7 +12,7 @@ export const Icons = () => {
                         href="https://github.com/sjcrippa"
                         target='_blank'>
                         <img
-                            className='transition ease-in-out hover:scale-150 duration-200'
+                            className='transition ease-in-out hover:scale-110 duration-200 h-10 w-10'
                             src={github}
                             alt="github" />
                     </a>
@@ -22,7 +22,7 @@ export const Icons = () => {
                         href="https://www.linkedin.com/in/santiago-julian-crippa/"
                         target='_blank'>
                         <img
-                            className='transition ease-in-out hover:scale-150 duration-200'
+                            className='transition ease-in-out hover:scale-110 duration-200 h-10 w-10'
                             src={linkedin}
                             alt="linkedin" />
                     </a>
