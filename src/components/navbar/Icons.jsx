@@ -1,0 +1,33 @@
+import React from 'react'
+
+import { github } from '../../assets'
+import { linkedin } from '../../assets'
+
+export const Icons = () => {
+    return (
+        <>
+            <div className='flex gap-3'>
+                <span>
+                    <a
+                        href="https://github.com/sjcrippa"
+                        target='_blank'>
+                        <img
+                            className='transition ease-in-out hover:scale-150 duration-200'
+                            src={github}
+                            alt="github" />
+                    </a>
+                </span>
+                <span>
+                    <a
+                        href="https://www.linkedin.com/in/santiago-julian-crippa/"
+                        target='_blank'>
+                        <img
+                            className='transition ease-in-out hover:scale-150 duration-200'
+                            src={linkedin}
+                            alt="linkedin" />
+                    </a>
+                </span>
+            </div>
+        </>
+    )
+}
