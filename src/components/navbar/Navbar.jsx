@@ -17,6 +17,8 @@ const Navbar = () => {
                 <ul 
                 className='font-mono font-bold text-lg flex mx-auto gap-7'>
                     <a 
+                    className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">Home</a>
+                    <a 
                     className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">About</a>
                     <a 
                     className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">Experience</a>
