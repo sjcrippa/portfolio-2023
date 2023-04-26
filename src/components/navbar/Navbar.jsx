@@ -15,7 +15,7 @@ const Navbar = () => {
                 alt="logo" />
                 </a>
                 <ul 
-                className='font-mono font-bold text-lg flex mx-auto gap-7'>
+                className='font-mono font-bold text-lg flex mx-auto gap-5'>
                     <a 
                     className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">Home</a>
                     <a 
@@ -27,7 +27,6 @@ const Navbar = () => {
                 </ul>
             <Icons/>
             </nav>
-
         </>
     )
 };
