@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-import Navbar from './navbar/Navbar'
+import Navbar from '../containers/navbar/Navbar';
 
 const Home = () => {
     return (
         <>
             <div className='h-screen'>
-                <Navbar />
+                <Navbar/>
                 <p className='text-center'>Home</p> 
             </div>
         </>
