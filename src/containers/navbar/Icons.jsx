@@ -6,7 +6,7 @@ import { linkedin } from '../../assets'
 export const Icons = () => {
     return (
         <>
-            <div className='flex gap-3'>
+            <div className='hidden md:flex gap-3'>
                 <span>
                     <a
                         href="https://github.com/sjcrippa"

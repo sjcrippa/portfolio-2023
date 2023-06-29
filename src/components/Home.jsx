@@ -6,8 +6,10 @@ const Home = () => {
     return (
         <>
             <div className='h-screen'>
-                <Navbar/>
-                <p className='text-center'>Home</p> 
+                <Navbar />
+                <div className='h-screen relative top-10'>
+                    <p className='text-center'>Home</p>
+                </div>
             </div>
         </>
     )

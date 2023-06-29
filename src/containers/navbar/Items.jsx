@@ -10,8 +10,6 @@ const Items = () => {
                 <a
                     className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">About</a>
                 <a
-                    className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">Experience</a>
-                <a
                     className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">Works</a>
             </ul>
         </>
