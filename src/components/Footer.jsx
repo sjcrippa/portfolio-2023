@@ -2,7 +2,13 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <>
+            <footer className='w-full h-screen absolute z-0 mt-10 mx-auto'>
+                <div className='text-center'>
+                    <p>Footer</p>
+                </div>
+            </footer>
+        </>
     )
 }
 export default Footer;

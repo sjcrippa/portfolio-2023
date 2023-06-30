@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logosjc from './logosjc.png';
 import github from './github.svg';
 import linkedin from './linkedin.svg';
 import menu from './menu.svg';
@@ -9,7 +9,7 @@ import works from './works.svg';
 import contact from './contact.svg';
 
 export {
-    logo,
+    logosjc,
     github,
     linkedin,
     menu,
