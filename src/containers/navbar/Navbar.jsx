@@ -18,12 +18,14 @@ const Navbar = () => {
             src={logosjc}
             alt="logosjc" />
         </Link>
-        <button
-          className='flex md:hidden ml-2'
-          onClick={() => setSideMenu(!sideMenu)}
-        >
-          {!sideMenu ? <img className='translate-x-52 ease-in-out duration-500 w-10 h-10' src={arrowLeft} alt="arrow chevron left" /> : <img className='w-10 h-10' src={menu} alt="menu" />}
-        </button>
+        <div>
+          <button
+            className='flex md:hidden ml-4 mt-2'
+            onClick={() => setSideMenu(!sideMenu)}
+          >
+            {!sideMenu ? <img className='mx-52 sm:mx-[23rem] ease-in-out duration-500 w-10 h-10' src={arrowLeft} alt="arrow chevron left" /> : <img className='w-10 h-10' src={menu} alt="menu" />}
+          </button>
+        </div>
         <Items />
         <div className='flex justify-end mr-2'>
           <Icons />
@@ -79,6 +81,11 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <div className='md:hidden w-full flex justify-end p-2'>
+        <a href="https://github.com/sjcrippa" target='_blank'>
+          <img className='w-16 h-16' src={logosjc} alt="logo" />
+        </a>
+      </div>
     </>
   )
 };
