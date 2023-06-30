@@ -3,8 +3,8 @@ import React from 'react';
 const Home = () => {
     return (
         <>
-            <div className='w-full z-0 mx-auto h-[100vh]'>
-                <div className='text-center relative top-10'>
+            <div className='w-full absolute -z-10 mx-auto bg-emerald-500 mt-24'>
+                <div className='h-[100vh] text-center'>
                     <p>Home</p>
                 </div>
             </div>

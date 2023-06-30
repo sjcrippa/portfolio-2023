@@ -36,9 +36,6 @@ const Navbar = () => {
         {`flex w-1/2 md:items-center sm:px-4 md:gap-3 text-light text-md bg-indigo-600 px-5 mt-2 z-10 h-screen fixed -top-2 transition-color duration-500 ease-in md:hidden
         ${sideMenu ? '-left-[100%]' : 'fixed left-0 shadow-lg shadow-dark'}`}>
         <div className='text-black flex flex-col uppercase'>
-          <Link to={'/'}>
-            <img className='w-16 h-16 mt-5' src={logosjc} alt="logosjc" />
-          </Link>
           <ul className='flex flex-col mt-5 justify-start items-start font-mono font-bold text-lg mx-auto gap-5 '>
             <Link
               className='flex gap-3 transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' to={'/home'}>
@@ -81,7 +78,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className='md:hidden w-full flex justify-end p-2'>
+      <div className='md:hidden w-full flex justify-end fixed p-2 backdrop-blur-sm'>
         <a href="https://github.com/sjcrippa" target='_blank'>
           <img className='w-16 h-16' src={logosjc} alt="logo" />
         </a>
