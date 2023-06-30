@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-import { arrowLeft, github, linkedin, logo, menu } from '../../assets'
+import { about, arrowLeft, contact, github, home, linkedin, logo, menu, works } from '../../assets'
 import { Icons } from './Icons'
 import Items from './Items';
 
@@ -30,18 +31,23 @@ const Navbar = () => {
 			</nav>
 
 			<nav className=
-				{`flex w-1/2 md:items-center sm:px-4 md:gap-3 text-light text-md bg-indigo-500 px-5 mt-2 z-10 h-screen fixed -top-2 transition-color duration-500 ease-in md:hidden
-          ${sideMenu ? '-left-[100%]' : 'fixed left-0 shadow-lg shadow-dark'}
-          `}>
+				{`flex w-1/2 md:items-center sm:px-4 md:gap-3 text-light text-md bg-indigo-600 px-5 mt-2 z-10 h-screen fixed -top-2 transition-color duration-500 ease-in md:hidden
+        ${sideMenu ? '-left-[100%]' : 'fixed left-0 shadow-lg shadow-dark'}`}>
 				<div className='text-black flex flex-col'>
 					<img className='w-16 h-16 mt-5' src={logo} alt="logo" />
 					<ul className='flex flex-col ml-2 mt-5 justify-start items-start font-mono font-bold text-lg mx-auto gap-5 '>
-						<a
-							className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">Home</a>
-						<a
-							className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">About</a>
-						<a
-							className='transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' href="#">Works</a>
+						<Link
+							className='flex gap-3 transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' to={'/'}>
+							<img src={home} alt="home" />Home</Link>
+						<Link
+							className='flex gap-3 transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' to= {"/about"} >
+							<img src={about} alt="about" />About</Link>
+						<Link
+							className='flex gap-3 transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' to= {"/works"} >
+							<img src={works} alt="works" />Works</Link>
+						<Link
+							className='flex gap-3 transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' to= {"/contact"} >
+							<img src={contact} alt="contact" />Contact</Link>
 					</ul>
 					<div className='mt-[26rem] w-full translate-x-7'>
 						<div className='flex gap-5 justify-center'>
