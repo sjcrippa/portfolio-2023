@@ -33,7 +33,7 @@ const Navbar = () => {
       <nav className=
         {`flex w-1/2 md:items-center sm:px-4 md:gap-3 text-light text-md bg-indigo-600 px-5 mt-2 z-10 h-screen fixed -top-2 transition-color duration-500 ease-in md:hidden
         ${sideMenu ? '-left-[100%]' : 'fixed left-0 shadow-lg shadow-dark'}`}>
-        <div className='text-black flex flex-col'>
+        <div className='text-black flex flex-col uppercase'>
           <Link to={'/'}>
             <img className='w-16 h-16 mt-5' src={logosjc} alt="logosjc" />
           </Link>
@@ -51,10 +51,11 @@ const Navbar = () => {
               className='flex gap-3 transition ease-in-out hover:scale-110 duration-100 text-slate-50 hover:text-blue-300' to={"/contact"} >
               <img src={contact} alt="contact" />Contact</Link>
           </ul>
-          <div className='mt-[26rem] w-full translate-x-7'>
-            <div className='flex gap-5 justify-center'>
-              <span>
+          <div className='w-full h-screen align-bottom py-96 translate-x-7'>
+            <div className='flex gap-5 '>
+              <button>
                 <a
+                  className='flex align-bottom'
                   href="https://github.com/sjcrippa"
                   target='_blank'>
                   <img
@@ -62,8 +63,8 @@ const Navbar = () => {
                     src={github}
                     alt="github" />
                 </a>
-              </span>
-              <span>
+              </button>
+              <button>
                 <a
                   href="https://www.linkedin.com/in/santiago-julian-crippa/"
                   target='_blank'>
@@ -72,7 +73,8 @@ const Navbar = () => {
                     src={linkedin}
                     alt="linkedin" />
                 </a>
-              </span>
+              </button>
+
             </div>
           </div>
         </div>
