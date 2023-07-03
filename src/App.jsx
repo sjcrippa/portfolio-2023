@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 import Navbar from './containers/navbar/Navbar';
+import './App.css';
 
 const App = () => {
 
@@ -22,10 +23,10 @@ const App = () => {
 						<Route path={'/works'} element={<Works />} />
 						<Route path={'/contact'} element={<Contact />} />
 					</Routes>
-					<About />
+{/* 					<About />
 					<Works />
 					<Contact />
-					<Footer />
+					<Footer /> */}
 				</Router>
 			</div>
 		</>
