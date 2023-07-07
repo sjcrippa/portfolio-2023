@@ -8,6 +8,7 @@ import about from './about.svg';
 import works from './works.svg';
 import contact from './contact.svg';
 import backgroundOne from './backgroundOne.png'
+import profile from './profile.png'
 
 export {
     logosjc,
@@ -20,4 +21,5 @@ export {
     works,
     contact,
     backgroundOne,
+    profile,
 };

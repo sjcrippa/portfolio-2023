@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className='fixed mx-auto rounded-lg drop-shadow-md hover:drop-shadow-xl flex w-full items-center z-10'>
+        className='fixed mx-auto drop-shadow-md hover:drop-shadow-xl flex w-full items-center bg-primary bg-opacity-75 z-10'>
         <Link to={"/home"}>
           <img
-            className='hidden md:flex mt-1 w-16 h-16 rounded-lg cursor-default bg-transparent ml-5'
+            className='hidden md:flex mt-1 w-16 h-16 rounded-lg cursor-default bg-transparent ml-5 hover:scale-105 duration-150'
             src={logosjc}
             alt="logosjc" />
         </Link>

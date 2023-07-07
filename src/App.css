@@ -1,8 +1,6 @@
-body{
-    background-color: #1E1B1F;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.home {
-    background-size: cover;
-    background-image: url('./assets/backgroundOne.png');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1E1B1F;
 }
