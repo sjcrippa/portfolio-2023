@@ -6,17 +6,18 @@ import '../App.css';
 const Home = () => {
 	return (
 		<>
-			<main className='w-full absolute -z-10 mx-auto mt-24'>
-				<div className="container h-screen mb-5 px-5 grid grid-cols-1 md:grid-cols-2">
-					<section className='col border border-primary'>
-						<h1 className='text-primary px-24 py-10 text-[3rem] w-5 -mb-5'>S.J. CRIPPA</h1>
+			<main className='home absolute w-full -z-10 mt-16'>
+				<div className="mx-auto container  grid grid-cols-1 md:grid-cols-2">
+					<section className='mt-10 col border-primary'>
+						<h1 className='text-primary font-extrabold px-24 text-[3rem] w-5 -mb-5'>S.J. CRIPPA</h1>
 						<div className='text-primary text-center'>
-							<h2 className='italic text-2xl w-full tracking-wider'>Front End Developer</h2>
+							<h2 className='text-light mt-12 italic text-2xl w-full font-bold tracking-wider'>Front End Developer</h2>
 							<img className='mt-10 mx-auto w-44 h-44 rounded-full' src={profile} alt="profile-image" />
-							<p className='mt-16 px-16 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam optio assumenda. Odit laudantium suscipit nostrum facere soluta maiores veritatis?</p>
+							<p className='mt-12 px-16 mx-auto italic text-primary font-thin'>Certified in Web Develop and focus in clean and modern desings. Are you looking for nice, fun and 'mobile first' web sites? You're in the right place!</p>
+							<button className='flex mx-16 md:translate-x-2 p-2 rounded-md mt-5 bg-gradient-to-r from-secondary shadow shadow-primary/80  to-primary text-dark font-extrabold hover:scale-105 transition-all duration-150'>LET'S TALK</button>
 						</div>
-						<div className='px-52 mt-24 w-full'>
-							<ul className='flex gap-10 text-primary'>
+						<div className='md:px-52 mt-5 w-full'>
+							<ul className='flex gap-10 text-primary justify-center'>
 								<li>ICON</li>
 								<li>ICON</li>
 								<li>ICON</li>
