@@ -14,7 +14,7 @@ const Navbar = () => {
         className='fixed mx-auto rounded-lg drop-shadow-md hover:drop-shadow-xl flex w-full items-center z-10'>
         <Link to={"/home"}>
           <img
-            className='hidden md:flex mt-1 w-16 h-16 rounded-lg transition ease-in-out hover:scale-110 duration-200 bg-transparent ml-5'
+            className='hidden md:flex mt-1 w-16 h-16 rounded-lg cursor-default bg-transparent ml-5'
             src={logosjc}
             alt="logosjc" />
         </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
           </button>
         </div>
         <Items />
-        <div className='flex justify-end mr-2'>
+        <div className='flex justify-end mr-12'>
           <Icons />
         </div>
       </nav>
