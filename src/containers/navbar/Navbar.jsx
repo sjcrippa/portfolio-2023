@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { about, arrowLeft, contact, github, home, linkedin, logosjc, menu, works } from '../../assets'
+import { about, arrowLeft, contact, home, logosjc, menu, works } from '../../assets'
 import { Icons } from './Icons'
 import Items from './Items';
+import LetsTalk from '../buttons/LetsTalk';
 
 const Navbar = () => {
   const [sideMenu, setSideMenu] = useState(true);
@@ -23,7 +24,7 @@ const Navbar = () => {
             className='flex md:hidden ml-4 mt-2'
             onClick={() => setSideMenu(!sideMenu)}
           >
-            {!sideMenu ? <img className='mx-52 sm:mx-[23rem] ease-in-out duration-500 w-10 h-10' src={arrowLeft} alt="arrow chevron left" /> : <img className='w-10 h-10' src={menu} alt="menu" />}
+            {!sideMenu ? <img className='mx-52 sm:mx-[23rem] ease-in-out duration-500 w-10 h-14' src={arrowLeft} alt="arrow chevron left" /> : <img className='w-10 h-14' src={menu} alt="menu" />}
           </button>
         </div>
         <Items />
@@ -52,11 +53,6 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-      <div className='md:hidden w-full flex justify-end fixed p-2 backdrop-blur-sm'>
-        <a href="https://github.com/sjcrippa" target='_blank'>
-          <img className='w-16 h-16' src={logosjc} alt="logo" />
-        </a>
-      </div>
     </>
   )
 };
