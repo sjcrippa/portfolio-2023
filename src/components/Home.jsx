@@ -14,7 +14,7 @@ const Home = () => {
 						<div className='text-primary text-center'>
 							<h2 className='text-light mt-12 italic text-2xl w-full font-bold tracking-wider'>Front End Developer</h2>
 							<img className='mt-10 mx-auto w-44 h-44 rounded-full' src={profile} alt="profile-image" />
-							<p className='mt-12 px-16 mx-auto italic text-primary font-thin'>Certified in Web Develop and focus in clean and modern desings. Are you looking for nice, fun and 'mobile first' web sites? You're in the right place!</p>
+							<p className='mt-12  mx-auto italic text-light font-thin backdrop-blur-md'>Certified in Web Development and focus in clean and modern desings. Are you looking for nice, fun and 'mobile first' web sites? You're in the right place!</p>
 							<LetsTalk />
 						</div>
 						<div className='md:px-52 mt-5 w-full'>
