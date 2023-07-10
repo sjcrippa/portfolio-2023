@@ -26,7 +26,9 @@ const Home = () => {
 						</div>
 					</section>
 					<section className='col border border-primary'>
+						<div className='container'>
 
+						</div>
 					</section>
 				</div>
 			</main>
