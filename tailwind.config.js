@@ -10,13 +10,15 @@ export default {
         center: true,
       },
       colors:{
-        'primary': '#F4BC15',
-        'secondary': '#B8593E',
-        'dark': '#1E1B1F',
+        'primary': '#4717F6',
+        'secondary': '#A239CA',
+        'dark': '#0E0B16',
         'light': '#E5E3DC',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 

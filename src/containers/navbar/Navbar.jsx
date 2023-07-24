@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className='fixed mx-auto drop-shadow-md hover:drop-shadow-xl flex w-full bg-black items-center z-10 shadow shadow-black '>
+        className='px-12 fixed mx-auto drop-shadow-md hover:drop-shadow-xl flex w-full bg-dark items-center z-10 shadow shadow-black '>
         <Link to={"/home"}>
           <img
             className='hidden md:flex mt-1 w-16 h-16 rounded-lg cursor-default bg-transparent ml-5 hover:scale-105 duration-150'
@@ -39,16 +39,16 @@ const Navbar = () => {
         <div className='text-black flex flex-col uppercase'>
           <ul className='flex flex-col mt-5 justify-start items-start mx-auto gap-5 '>
             <Link
-              className='flex gap-3 text-lg font-extrabold transition ease-in-out hover:scale-110 duration-100 text-dark hover:text-blue-300' to={'/home'}>
+              className='flex gap-3 text-lg font-extrabold transition ease-in-out hover:scale-110 duration-100' to={'/home'}>
               <img src={home} alt="home" />Home</Link>
             <Link
-              className='flex gap-3 text-lg font-extrabold transition ease-in-out hover:scale-110 duration-100 text-dark hover:text-blue-300' to={"/about"} >
+              className='flex gap-3 text-lg font-extrabold transition ease-in-out hover:scale-110 duration-100' to={"/about"} >
               <img src={about} alt="about" />About</Link>
             <Link
-              className='flex gap-3 text-lg font-extrabold transition ease-in-out hover:scale-110 duration-100 text-dark hover:text-blue-300' to={"/works"} >
+              className='flex gap-3 text-lg font-extrabold transition ease-in-out hover:scale-110 duration-100' to={"/works"} >
               <img src={works} alt="works" />Works</Link>
             <Link
-              className='flex gap-3 text-lg font-extrabold transition ease-in-out hover:scale-110 duration-100 text-dark hover:text-blue-300' to={"/contact"} >
+              className='flex gap-3 text-lg font-extrabold transition ease-in-out hover:scale-110 duration-100' to={"/contact"} >
               <img src={contact} alt="contact" />Contact</Link>
           </ul>
         </div>
