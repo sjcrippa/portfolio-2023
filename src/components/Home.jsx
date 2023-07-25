@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { profile } from '../assets'
+import { profile, webDev } from '../assets'
 import '../App.css';
 import LetsTalk from '../containers/buttons/LetsTalk';
 
@@ -16,15 +16,16 @@ const Home = () => {
 
           <section className='mt-16 md:mt-40 col animate-fade-right animate-once animate-duration-[600ms] animate-ease-linear animate-normal animate-fill-both'>
             <h2 className='text-light mt-12 italic text-2xl w-full font-bold tracking-wider text-center'>Front End Developer</h2>
+            <img className='absolute mt-96 md:mt-0 z-0' src={webDev} alt="illustration" />
           </section>
 
-          <section className='mt-16 md:mt-24 animate-fade-right animate-once animate-duration-[600ms] animate-ease-linear animate-normal animate-fill-both'>
+          <section className='mt-16 md:mt-24 animate-fade-up animate-once animate-duration-[600ms] animate-ease-linear animate-normal animate-fill-both'>
             <div className='text-primary text-center'>
               <img className='w-44 md:w-auto md:mt-16 px-2 rounded-full mx-auto' src={profile} alt="profile-image" />
             </div>
           </section>
 
-          <section className='md:mt-28 h-screen w-full animate-fade-right animate-once animate-duration-[600ms] animate-ease-linear animate-normal animate-fill-both'>
+          <section className='md:mt-48 h-screen w-full animate-fade-left animate-once animate-duration-[600ms] animate-ease-linear animate-normal animate-fill-both'>
             <div className='mt-16 text-center'>
               <p className='mx-auto italic text-light font-thin backdrop-blur-md'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, tempore.</p>
               <LetsTalk />
