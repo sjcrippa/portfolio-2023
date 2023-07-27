@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { about, arrowLeft, contact, home, logosjc, menu, works } from '../../assets'
 import { Icons } from './Icons'
 import Items from './Items';
-import LetsTalk from '../buttons/LetsTalk';
 
 const Navbar = () => {
   const [sideMenu, setSideMenu] = useState(true);
@@ -12,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className='fixed mx-auto drop-shadow-md hover:drop-shadow-xl flex w-full bg-dark items-center z-10 shadow shadow-black justify-between'>
+        className='fixed mx-auto flex w-full bg-dark items-center z-10 justify-between'>
         <div className='md:flex md:items-center md:px-4'>
           <Link to={"/home"}>
             <img
