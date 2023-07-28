@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: #0E0B16;
+}
+
+.test {
+    background: linear-gradient(to right, #4717f6, #6d1bea, #8523de, #962dd4, #a239ca);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
