@@ -6,7 +6,7 @@ import { profile, webDev } from '../assets'
 import LetsTalk from '../containers/buttons/LetsTalk';
 import '../App.css';
 
-const Home = () => {
+const Home = () => { 
 
   return (
     <>
